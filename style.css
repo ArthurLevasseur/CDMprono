@@ -1,0 +1,153 @@
+	@font-face {
+	font-family: "Basic";
+	src: url("font/Basic Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Aachen";
+	src: url("font/Aachen Bold Plain.ttf") format("truetype");
+}
+
+
+h1, h2, h3
+{
+	font-family: "Basic";
+	margin: 10px 0px;
+	font-size: 25px;
+}
+
+a
+{
+	color: #F5F7DC;
+}
+
+a:hover
+{
+	color: #FFFF82;
+}
+
+body {
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+	color: black;
+	margin-top: 0px;
+	font-family: "Basic";
+	font-size: 16px;
+}
+
+.container {
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0em 1em;
+}
+
+@media (max-width: 1250px) {
+	.container {
+		margin: 0px 5px;
+	}
+}
+
+.banner {
+	background-image: url("img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 150px;
+	margin: 0em -1em;
+	
+	text-align: center;
+}
+
+.p-ok {
+	color: lime;
+}
+
+.p-wait {
+	color: red;
+}
+
+input, label {
+	display: block;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+input[type="radio"]:checked + label {
+	color: red;
+	font-weight: bold;
+}
+
+.banner img {
+}
+
+/** barre de navigation **/
+nav ul {
+	margin: 0em;
+}
+
+nav {
+	background-color: #3A4E48;
+	margin: 0em -1em;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	margin: 0em 0.5em;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+/** Formulaires **/
+
+input[type="text"], textarea {
+	background-color: #3A4E48;
+	color: white;
+	border-style: none;
+
+}
+
+input[type="submit"] {
+	background-color: #FFB055;
+	color:white;
+	border-radius: 5em;
+	border-style: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 10em;
+	height: 3em;
+	margin: 1em 0em;
+}
+
+input[type="submit"]:hover {
+	background-color: #FF9C2A;
+}
+
+input[type="submit"]:active {
+	background-color: #FF8800;
+}
+
+select {
+	background-color: #3A4E48;
+	border-style: none;
+	color: white;
+}
+
+fieldset {
+	border-style: none;
+}
+
+input[type="radio"] {
+	background-color: #3A4E48;
+}
